@@ -21,7 +21,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.2'
+          php-version: '8.4'
 
       - name: Check if composer.json exists
         id: check_files
@@ -57,4 +57,4 @@ jobs:
           app-name: 'msdocs-laravel-mysql-rtf'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C567BC997A9E459085CB8C8FD6439C6C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F98324A203724C2D94AD4A6B04E2FEA6 }}
